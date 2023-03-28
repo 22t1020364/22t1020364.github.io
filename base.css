@@ -1,0 +1,19 @@
+ .menu .image1{
+    max-width: 200px;
+    height: auto;
+    
+}
+.menu .ul{
+    list-style-type: none;
+    display:flex;
+    direction:rtl;
+}
+.image2{
+    width:100%;
+    height:500px;
+}
+.ul{
+    list-style-type: none;
+    display:flex; 
+    
+}
