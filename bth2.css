@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+.header .hotline{
+    margin-left: 40px;
+    color: white;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+    font-size:25px;
+}
+.header .logo{
+    border-bottom: 1px solid white;
+}
+.border{
+    width: 225px;
+    padding: 20px;
+    border: 5px solid #CED086;
+    margin: 75px 0 0 28%;
+    background-color:#678B37;
+}
+.border p{
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
+    margin-top: 10px;
+}
+.border .input .ip{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #678B37;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329) ;
+    border-top-color: rgba(124, 124, 124, 0.089);
+    border-left-color: rgba(124, 124, 124, 0.089);
+    border-right-color: rgba(124, 124, 124, 0.089);
+}
+.ip::-webkit-input-placeholder{
+    color: rgb(230, 228, 225);
+}
+.border .button{
+    background-color:#C5D301;
+    padding: 10px;
+    color: white;
+    margin-left: 30%;
+    border-color: rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.body{
+    width: 100%;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+.body .c2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    padding: 0  20% 0 20px;
+}
+.body .c1{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    float: left;
+    padding: 0  20px 0 20%;
+}
+.body .text1{
+    text-align: justify;
+    line-height: 1.3;
+}
+.body .text{
+    margin-bottom: 10px;
+    color: #2D8C15;
+    font-size: 15.5px;
+}
+.body img{
+    border: 2px dashed #2D8C15;
+    border-radius: 10px;
+}
+.chan{
+    display: flex;
+    margin: 20px 20% 0 20%;
+}
+.chan1{
+    color: white;
+    margin-right: 20px;
+    text-align: justify;
+}
+.chan1 h3{
+    border-bottom:1px solid white ;
+}
+
+.ft{
+    padding: 0 200px 5px 5px;
+    border-color: rgba(255, 255, 255, 0.055);
+    margin-bottom: 10px;
+}
+.end{
+    display: flex;
+    column-gap: 20px;
+}
+.sb
+{
+    border: none;
+    background-color:#2D8C15;
+    color:#fff;
+    margin-bottom: 5px;
+}
